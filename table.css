@@ -1,0 +1,62 @@
+/* Container opcional */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Tabela base */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #212529;
+  background-color: #fff;
+}
+
+/* Cabeçalho */
+.table thead {
+  background-color: #f8f9fa;
+}
+
+.table th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+}
+
+/* Corpo */
+.table td {
+  padding: 12px;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Linhas alternadas (striped) */
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Hover */
+.table-hover tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Bordas */
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+/* Responsividade opcional */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
